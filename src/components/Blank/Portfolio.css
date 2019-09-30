@@ -1,0 +1,302 @@
+.portoflio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.vanillajs {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(221, 153, 26, 0.499);
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    row-gap: 50px;
+    padding-bottom: 50px;
+}
+
+.vanillajs>h2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+div.jsw {
+    border: 1px solid rgb(164, 60, 12);
+    display: block;
+    width: 100%;
+}
+
+div.jsw>a {
+    display: block;
+    width: auto;
+}
+
+div.jsw>a>img {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.jswork1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.jswork2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.jswork3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.jswork4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.jswork5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.jswork6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.jswork7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.jswork8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.framworks {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgba(172, 206, 234, 0.356);
+    padding: 0 0 80px 0;
+}
+
+.framworks>h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+
+.reactjs {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: auto repeat(auto-fill, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(54, 162, 251, 0.8);
+
+}
+
+.reactjs>h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+
+
+
+div.react {
+    border: 1px solid rgb(164, 60, 12);
+    display: block;
+    width: auto;
+
+}
+
+div.react>a {
+    display: block;
+    width: auto;
+}
+
+div.react>a>img {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+
+.workreact1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.workreact2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.workreact3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.workreact4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.django {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: auto repeat(auto-fill, 1fr);
+    background-color: rgba(36, 147, 70, 0.8);
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.django>h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+
+
+
+
+div.dja {
+    border: 1px solid rgb(164, 60, 12);
+    display: block;
+    width: 100%;
+}
+
+div.dja>a {
+    display: block;
+    width: auto;
+}
+
+div.dja>a>img {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+.workdjango1 {}
+
+.workdjango2 {}
+
+.workdjango3 {}
+
+.workdjango4 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
